@@ -176,172 +176,172 @@ body {
   .container_mobile {
     display: none;
   }
-}
-.container_desktop {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 100vh;
-}
-.container_desktop .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-}
-.container_desktop .nav .button_menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 33%;
-  background-color: #F778B9;
-  border: none;
-  border-radius: 10px;
-  width: 50px;
-  height: 48px;
-}
-.container_desktop .nav .button_menu .icon_nav {
-  width: 27.78px;
-  height: 19.2px;
-}
-.container_desktop .nav .button_search {
-  background-color: transparent;
-  border: none;
-}
-.container_desktop .nav .button_search .icon_nav_search {
-  width: 24px;
-  height: 24px;
-}
-.container_desktop .hero {
-  margin: 6px 0 8px 0;
-}
-.container_desktop .hero div#slider {
-  overflow: hidden;
-}
-.container_desktop .hero div#slider figure img {
-  width: 20%;
-  float: left;
-}
-.container_desktop .hero div#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
-}
-@keyframes slidy {
-  0% {
-    left: 0%;
+  .container_desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
   }
-  20% {
-    left: 0%;
+  .container_desktop .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   }
-  25% {
-    left: -100%;
+  .container_desktop .nav .button_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    background-color: #F778B9;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 48px;
   }
-  45% {
-    left: -100%;
+  .container_desktop .nav .button_menu .icon_nav {
+    width: 27.78px;
+    height: 19.2px;
   }
-  50% {
-    left: -200%;
+  .container_desktop .nav .button_search {
+    background-color: transparent;
+    border: none;
   }
-  70% {
-    left: -200%;
+  .container_desktop .nav .button_search .icon_nav_search {
+    width: 24px;
+    height: 24px;
   }
-  75% {
-    left: -300%;
+  .container_desktop .hero {
+    margin: 6px 0 8px 0;
   }
-  95% {
-    left: -300%;
+  .container_desktop .hero div#slider {
+    overflow: hidden;
   }
-  100% {
-    left: -400%;
+  .container_desktop .hero div#slider figure img {
+    width: 20%;
+    float: left;
   }
-}
-.container_desktop .information {
-  margin: 6px;
-}
-.container_desktop .information .category_title h6 {
-  color: #F778B9;
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  margin: 14.5px 5px;
-}
-.container_desktop .information .category_title h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -0.02em;
-  color: #414141;
-  margin: 15px 0px;
-}
-.container_desktop .information .description p {
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  letter-spacing: 0.02em;
-  color: #414141;
-}
-.container_desktop .footer {
-  margin: 0;
-}
-.container_desktop .footer img {
-  width: 100%;
-}
-.container_desktop .menu {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 63px 5px 95px;
-}
-.container_desktop .menu .section1 {
-  margin-bottom: 30px;
-}
-.container_desktop .menu h3 {
-  margin: 5px 5px;
-  color: #B378FF;
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-}
-.container_desktop .menu a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 13.41px;
-  height: 13.41px;
-}
-.container_desktop .menu a img {
-  width: 13.41px;
-  height: 13.41px;
-}
-.container_desktop .menu .option {
-  margin: 5px 5px;
-  display: flex;
-  justify-content: space-between;
-}
-.container_desktop .menu .option p {
-  margin: 3px;
-  color: #555555;
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+  .container_desktop .hero div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+  }
+  @keyframes slidy {
+    0% {
+      left: 0%;
+    }
+    20% {
+      left: 0%;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+  .container_desktop .information {
+    margin: 6px;
+  }
+  .container_desktop .information .category_title h6 {
+    color: #F778B9;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 14.5px 5px;
+  }
+  .container_desktop .information .category_title h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    margin: 15px 0px;
+  }
+  .container_desktop .information .description p {
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #414141;
+  }
+  .container_desktop .footer {
+    margin: 0;
+  }
+  .container_desktop .footer img {
+    width: 100%;
+  }
+  .container_desktop .menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 63px 5px 95px;
+  }
+  .container_desktop .menu .section1 {
+    margin-bottom: 30px;
+  }
+  .container_desktop .menu h3 {
+    margin: 5px 5px;
+    color: #B378FF;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .container_desktop .menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13.41px;
+    height: 13.41px;
+  }
+  .container_desktop .menu a img {
+    width: 13.41px;
+    height: 13.41px;
+  }
+  .container_desktop .menu .option {
+    margin: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container_desktop .menu .option p {
+    margin: 3px;
+    color: #555555;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
