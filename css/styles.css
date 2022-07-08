@@ -172,6 +172,10 @@ body {
   line-height: 24px;
 }
 
+.container_desktop {
+  display: none;
+}
+
 @media (min-width: 414px) {
   .container_mobile {
     display: none;
