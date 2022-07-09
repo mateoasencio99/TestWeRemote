@@ -360,6 +360,88 @@ body{
             }
         }
     }
+    .slider_container{
+        padding: 10px;
+        ul, li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        ul.slider{
+        position: relative;
+        width: 800px;
+        height: 300px;
+        }
+        ul.slider li {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            opacity: 0;
+            width: inherit;
+            height: inherit;
+            transition: opacity .5s;
+            background:#fff;
+        }
+        ul.slider li img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        }
+        ul.slider li:first-child {
+            opacity: 1; 
+        }
+        ul.slider li:target {
+            opacity: 1; 
+        }
+        .menu{
+        text-align: center;
+        margin: 20px;
+        }
+        
+        .menu li{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    
+        }
+        
+        .menu li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background-color: grey;
+        padding: 10px;
+        width: 0.2px;
+        height: 0.2px;
+        border-radius: 100%;
+        margin: 5px;
+        }
+        #slide1{
+            display: flex;
+            flex-direction: column;
+            .icon_slider{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+            }
+            img{
+                width: 48px;
+                height: 48px;
+            }
+            .text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .author{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
     .footer{
         margin: 0;
         img{

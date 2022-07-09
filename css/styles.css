@@ -387,6 +387,85 @@ body {
     border: none;
     border-radius: 4px;
   }
+  .container_desktop .slider_container {
+    padding: 10px;
+  }
+  .container_desktop .slider_container ul, .container_desktop .slider_container li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .container_desktop .slider_container ul.slider {
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  .container_desktop .slider_container ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 0.5s;
+    background: #fff;
+  }
+  .container_desktop .slider_container ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .container_desktop .slider_container ul.slider li:first-child {
+    opacity: 1;
+  }
+  .container_desktop .slider_container ul.slider li:target {
+    opacity: 1;
+  }
+  .container_desktop .slider_container .menu {
+    text-align: center;
+    margin: 20px;
+  }
+  .container_desktop .slider_container .menu li {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container_desktop .slider_container .menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 0.2px;
+    height: 0.2px;
+    border-radius: 100%;
+    margin: 5px;
+  }
+  .container_desktop .slider_container #slide1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container_desktop .slider_container #slide1 .icon_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .container_desktop .slider_container #slide1 img {
+    width: 48px;
+    height: 48px;
+  }
+  .container_desktop .slider_container #slide1 .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_desktop .slider_container #slide1 .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .container_desktop .footer {
     margin: 0;
   }
