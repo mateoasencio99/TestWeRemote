@@ -217,17 +217,19 @@ body {
     width: 24px;
     height: 24px;
   }
-  .container_desktop .hero {
+  .container_desktop .hero_card {
+    flex-direction: row;
+    display: flex;
     margin: 6px 0 8px 0;
   }
-  .container_desktop .hero div#slider {
+  .container_desktop .hero_card div#slider {
     overflow: hidden;
   }
-  .container_desktop .hero div#slider figure img {
+  .container_desktop .hero_card div#slider figure img {
     width: 20%;
     float: left;
   }
-  .container_desktop .hero div#slider figure {
+  .container_desktop .hero_card div#slider figure {
     position: relative;
     width: 500%;
     margin: 0;
@@ -265,10 +267,12 @@ body {
       left: -400%;
     }
   }
-  .container_desktop .information {
+  .container_desktop .hero_card .card {
+    padding: 10px 80px;
+    flex-direction: column;
     margin: 6px;
   }
-  .container_desktop .information .category_title h6 {
+  .container_desktop .hero_card .card .category_title h6 {
     color: #F778B9;
     font-family: "Source Sans Pro";
     font-style: normal;
@@ -277,7 +281,7 @@ body {
     line-height: 16px;
     margin: 14.5px 5px;
   }
-  .container_desktop .information .category_title h1 {
+  .container_desktop .hero_card .card .category_title h1 {
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -287,7 +291,7 @@ body {
     color: #414141;
     margin: 15px 0px;
   }
-  .container_desktop .information .description p {
+  .container_desktop .hero_card .description p {
     font-family: "Merriweather";
     font-style: normal;
     font-weight: 400;
@@ -295,6 +299,83 @@ body {
     line-height: 32px;
     letter-spacing: 0.02em;
     color: #414141;
+  }
+  .container_desktop .information {
+    display: flex;
+  }
+  .container_desktop .information .content {
+    background-color: #F5F5F5;
+  }
+  .container_desktop .information .content h2 {
+    color: #486DB7;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .container_desktop .information .content p {
+    color: #414141;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .container_desktop .information .form {
+    margin: 60px 20px;
+    padding: 10px 80px;
+  }
+  .container_desktop .information .form .title_form {
+    display: flex;
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    background: #696969;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    height: 27px;
+    width: 150px;
+    margin: 10px 60px 10px 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .container_desktop .information .form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .container_desktop .information .form form .section_form {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    padding: 3px;
+  }
+  .container_desktop .information .form form .section_form .imput {
+    width: 190px;
+    height: 40px;
+  }
+  .container_desktop .information .form form .textarea {
+    margin: 0px;
+    height: 6em;
+    width: 400px;
+  }
+  .container_desktop .information .form form button {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 250px;
+    height: 40px;
+    width: 76px;
+    background: #696969;
+    border: none;
+    border-radius: 4px;
   }
   .container_desktop .footer {
     margin: 0;
