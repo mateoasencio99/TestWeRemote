@@ -561,8 +561,38 @@ body{
         }
     }
         .container_faq_publicity{
-            
-            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            hr{
+                margin: 0;
+                padding: 0;
+                color: #CACACA;
+                height: 0px;
+                border:1px dashed;
+            }
+            .faq{
+                padding: 15px;
+                margin: 0;
+                .section{
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        font-family: 'Source Sans Pro';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 32px;
+                        margin: 0;
+                        color: #414141;
+                    }
+                    img{
+                        padding: 15px;
+                        width: 15px;
+                        height: 10px;
+                    }
+                }
+            }
             .publicity{
             img{
                 width: 800px;

@@ -585,6 +585,40 @@ body {
     font-size: 16px;
     line-height: 24px;
   }
+  .container_desktop .menu_container .container_faq_publicity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container_desktop .menu_container .container_faq_publicity hr {
+    margin: 0;
+    padding: 0;
+    color: #CACACA;
+    height: 0px;
+    border: 1px dashed;
+  }
+  .container_desktop .menu_container .container_faq_publicity .faq {
+    padding: 15px;
+    margin: 0;
+  }
+  .container_desktop .menu_container .container_faq_publicity .faq .section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container_desktop .menu_container .container_faq_publicity .faq .section p {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color: #414141;
+  }
+  .container_desktop .menu_container .container_faq_publicity .faq .section img {
+    padding: 15px;
+    width: 15px;
+    height: 10px;
+  }
   .container_desktop .menu_container .container_faq_publicity .publicity img {
     width: 800px;
   }
