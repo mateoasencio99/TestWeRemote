@@ -583,13 +583,24 @@ body{
                         font-weight: 700;
                         font-size: 24px;
                         line-height: 32px;
-                        margin: 0;
+                        margin: 10px;
                         color: #414141;
                     }
                     img{
                         padding: 15px;
                         width: 15px;
                         height: 10px;
+                    }
+                    .open{
+                        width: 15px;
+                        height: 15px;
+                    }
+                    .answer{
+                        font-family: 'Sorts Mill Goudy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 32px;
                     }
                 }
             }
