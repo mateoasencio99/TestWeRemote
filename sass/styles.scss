@@ -510,8 +510,12 @@ body{
         }
     }
 
-    //open_menu_mobile
-    .menu{
+    //open_menu_desktop
+    .menu_container{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        .menu{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -555,8 +559,20 @@ body{
                 line-height: 24px;
             }
         }
+    }
+        .container_faq_publicity{
+            
+            .faq{
+                
+            }
+            .publicity{
+            img{
+                width: 850px;
+            }
+        }
+        }
+        
         
     }
-
     }
 }
